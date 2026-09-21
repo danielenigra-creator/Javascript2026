@@ -57,7 +57,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="spacer"></section>
 `
 */
-
+//descrive la mia struttura, che tipo di dati andrò a mappare con tutti i miei campi che
+//ho inserito.
 interface Todo {
   id: number;
   text: string;
@@ -80,7 +81,7 @@ button.addEventListener("click", () => {
   };
 
   todos.push(newTodo);
-  renderTodos(); // <-- Stampa i miei elementi in html
+  renderTodos(); //  Stampo i miei elementi in html
   input.value = "";
 
   console.log(todos);

@@ -1,0 +1,25 @@
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+
+    <div class="input-row">
+      <input id="todo-input" type="text" placeholder="Nuova attività" />
+      <button id="add-btn">Aggiungi</button>
+    </div>
+
+    <div class="filters">
+      <button id="filter-all">Tutte</button>
+      <button id="filter-active">Da fare</button>
+      <button id="filter-done">Completate</button>
+    </div>
+
+    <ul id="todo-list"></ul>
+
+    <script type="module" src="/src/main-iniziale.ts"></script>
+  </body>
+</html>
